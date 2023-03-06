@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Jost:ital,wght@0,100;0,300;1,100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+
+body {
+  background: url(https://i.postimg.cc/jRS6pLhL/10617.jpg);
+  margin: 0;
+  padding: 0;
+  color: lemonchiffon;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  font-family: "Jost", sans-serif;
+  font-weight: bold;
+  }
+
+h1 {
+  color: bisque;
+  font-family: limelight;
+  font-size: 30px;
+  margin-bottom:100px;
+}
+
+#game {
+  display: flex;
+  border: 10px dotted #ffffcc;
+  padding: 15px 30px 30px 30px; 
+}
+
+.card {
+  width: 200px;
+  height: 200px;
+  color: beige;
+  background-image: linear-gradient(saddlebrown, #cc9966);
+  opacity: 0.8;
+  border-left: solid #ffffcc 6px;
+  border-right: solid peachpuff 6px;
+  border-top: solid #ffffcc 10px;
+  border-bottom: solid peachpuff 10px;
+  text-align: center;
+  font-family: limelight;
+  font-size: 100px;
+  margin: 10px;
+  padding: 5px;
+}
+
+.card_alignment {
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+}
+
+.card_2 {
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(saddlebrown, #cc9966);
+  border-left: solid #ffffcc 6px;
+  border-right: solid peachpuff 6px;
+  border-top: solid #ffffcc 10px;
+  border-bottom: solid peachpuff 10px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 100px;
+  margin: 10px;
+  padding: 5px; }
+
+.card_hover:hover {
+  background-image: linear-gradient(darkgoldenrod, gold);
+}
+
+.first-button, .second-button {
+  background-color: bisque;
+  border: 8px groove bisque;
+  text-transform: uppercase;
+  width: 180px;
+  margin: 10px;
+  margin-top: 15px;
+  padding: 9px;
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.genre-title {
+  color: #ffffcc;
+  text-align: center;
+  font-size: 28px;
+  padding: 5px;
+ }
+
+#score, h2 {
+  background: linear-gradient(darkgoldenrod, black);
+  color: white;
+  opacity: 0.9;
+  font-family: limelight;
+  padding: 10px;
+  font-size: 30px;
+  border-radius: 10px;
+  margin-top: -50px;
+  margin-bottom: 50px;
+}
